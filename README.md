@@ -52,14 +52,14 @@
   - git push -f origin branch_name
 
 ### 6. **Git Bash/ PyCharm** - commits:
-- 6.1 commit add .
+- 6.1 git add .
 - 6.2 git commit -m "commit description" # meaningful commit's description; "wip/./sth" not accepted!
 - 6.3 git push origin feature branch e.g. git push origin adam_1_pse_data_scrapper 
 
 ### 7. **GitHub** - pull Requests:
-- 7.1. PR description as point list required
+- 7.1. PR description as *bullet point list* required
 - 7.2. Assign *Adam Nowacki* as **required reviewer**, rest developers as **optional reviewers**
-- 7.3. Merge from Feature into Dev accepted when PR received approve vote and all comments/threads are resolved
+- 7.3. Merge from feature into dev accepted if PR receive approve vote and all comments/threads are resolved
 
 ---
 
