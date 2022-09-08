@@ -30,6 +30,21 @@
 - 4.1 cd ../AXPO TRADING
 - 4.2 conda install --file requirements.txt
 
+### Branches structure:
+5.1 - Main - production branch
+5.2 - Dev - development branch
+5.3 - Feature - feature branch (name format: {developer_name}_{branch_id}_{feature_description} e.g. adam_1_pse_data_scrapper 
+5.4 Feature -> Dev -> Main
 
-#### Usefull conda commands:
+### Commits in Git Bash/ PyCharm:
+6.1 commit add .
+6.2 git commit -m "commit description" # meaningfull commit's description; "wip/./sth" not accepted!
+6.3 git push origin feature branch e.g. git push origin adam_1_pse_data_scrapper 
+
+### Pull Requests:
+7.1. PR description as point list required
+7.2. Assign Adam Nowacki as required reviewer, rest developers optional
+7.3. Merge from Feature into Dev accepted when PR received approve vote and all comments/threads are resolved
+
+### Usefull conda commands:
 conda list - display installed packages in environment
