@@ -37,8 +37,19 @@
 ### 5. **GitHub** - branches structure:
 - 5.1 - Main - production branch
 - 5.2 - Dev - development branch
-- 5.3 - Feature - feature branch (name format: {*developer_name*}_{*branch_id*}_{*feature_description*} e.g. *adam_1_pse_data_scrapper* 
-- 5.4 Feature -> Dev -> Main
+- 5.3 - Feature - feature branch (name format: {*developer_name.title()*}_{*branch_developer_id*}_{*feature_description*} e.g. *Adam_1_pse_data_scrapper* 
+- 5.4 Branches dependencies: Feature -> Dev -> Main
+- 5.5 create new branch from Dev branch: 
+  - git checkout -b brach_name
+- 5.6 rebase branch: 
+  - git fetch origin Dev:Dev
+  - git rebase Dev
+  - code version selection
+  - git add .
+  - git rebase --continue
+  - code version selection
+  - git add .
+  - git push -f origin branch_name
 
 ### 6. **Git Bash/ PyCharm** - commits:
 - 6.1 commit add .
